@@ -1,0 +1,4 @@
+Manifest
+Rakefile
+bin/create_rails_mysql_db
+lib/create_rails_mysql_db.rb
