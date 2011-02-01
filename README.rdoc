@@ -1,0 +1,15 @@
+= create_rails_mysql_db
+
+This gem reading the config/database.yml file for a Rails app and creates the databases in mysql and grants the permissions for the user.
+Start this util from root path just created rails app with -g option, and it will ask root mysql password, and create for you needed databases.
+Or, edit config/database.yml, and then start it without any option, create_rails_mysql_db will create listed databases, usernames and grant passwords.
+
+
+-g (optional) - if password is empty (this is default for just created new rails app), it generate new, also replace username to database name (for new rails app, login root will be replaced by database name), and rewrite config/database.yml
+
+== Note on Patches/Pull Requests
+ 
+
+== Copyright
+
+Copyright (c) 2011 Dmitry Biryukov. See LICENSE for details.
