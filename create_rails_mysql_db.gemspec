@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{create_rails_mysql_db}
-  s.version = "0.1"
+  s.version = "0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dmitry Biryukov"]
@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.description = %q{cli util to create database and username readed from config/database.yml}
   s.email = %q{dmitry@biryukov.net}
   s.executables = ["create_rails_mysql_db"]
-  s.extra_rdoc_files = ["bin/create_rails_mysql_db", "lib/create_rails_mysql_db.rb"]
-  s.files = ["Manifest", "Rakefile", "bin/create_rails_mysql_db", "lib/create_rails_mysql_db.rb", "create_rails_mysql_db.gemspec"]
-  s.homepage = %q{http://github.com/tombombadil/create_rails_mysql_db}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Create_rails_mysql_db"]
+  s.extra_rdoc_files = ["README", "bin/create_rails_mysql_db", "lib/create_rails_mysql_db.rb"]
+  s.files = ["Manifest", "README", "Rakefile", "bin/create_rails_mysql_db", "create_rails_mysql_db.gemspec", "lib/create_rails_mysql_db.rb"]
+  s.homepage = %q{https://github.com/dmitryz/create_rails_mysql_db}
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Create_rails_mysql_db", "--main", "README"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{create_rails_mysql_db}
   s.rubygems_version = %q{1.3.7}

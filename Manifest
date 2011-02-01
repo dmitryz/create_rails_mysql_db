@@ -1,4 +1,6 @@
 Manifest
+README
 Rakefile
 bin/create_rails_mysql_db
+create_rails_mysql_db.gemspec
 lib/create_rails_mysql_db.rb
